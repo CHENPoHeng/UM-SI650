@@ -167,7 +167,7 @@ lineS = plt.plot(np.log(tmp.word_freq), np.log(tmp.freq_Prop), label = 'Congress
 plt.title('Blog and Congress Speech Word Distribution')
 plt.xlabel('frequency of words (in log)')
 plt.ylabel('proportion of frequency (in log)')
-plt.legend([lineB, lineS])
+plt.legend(loc='upper right')
 plt.savefig('plot.png')
 
 ## 4-2
