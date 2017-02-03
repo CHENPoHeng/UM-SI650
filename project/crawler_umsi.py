@@ -2,6 +2,7 @@
 import requests # use requests to crawl course data from UMICH schools' website
 from bs4 import BeautifulSoup as bs # to clean and soup
 import re
+import csv
 
 ###### UMSI
 url = 'https://www.si.umich.edu/programs/courses/catalog'
@@ -15,9 +16,11 @@ for i in soup.find_all('a'):
     if i is not None and '/programs/courses/' in i:
         course_url.append(i)
 
+course_url = course_url[:-1]
 url = 'https://www.si.umich.edu'
 
-with open('umsi_course_list.txt', 'w') as f:
+with open('umsi_course_list.csv', 'wb') as f:
+    writer = csv.writer(f)
     for i in set(course_url):
         soup = bs(requests.get(url + i).text)
         unit = soup.h1.text
@@ -28,4 +31,4 @@ with open('umsi_course_list.txt', 'w') as f:
         cred = soup.find("div", { "class" : "course2credit" }).text.split(':')[1].strip()
         prea = soup.find("div", { "class" : "course2prea" }).text.split(':')[1].strip()
         prep = soup.find("div", { "class" : "course2prer" }).text.split(':')[1].strip()
-        f.write('{}, {}, {}, {}, {}, {} \n'.format(unit, name, desc, cred, prea, prep))
+        writer.writerow([unit, code, name, desc, cred, prea, prep])
