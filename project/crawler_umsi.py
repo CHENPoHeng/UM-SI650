@@ -19,16 +19,17 @@ for i in soup.find_all('a'):
 course_url = course_url[:-1]
 url = 'https://www.si.umich.edu'
 
-with open('umsi_course_list.csv', 'wb') as f:
+with open('output/umsi_course_list.csv', 'wb') as f:
     writer = csv.writer(f)
+    writer.writerow(['department', 'code', 'title', 'description', 'credit', 'advised_requisite', 'pre_requisite'])
     for i in set(course_url):
         soup = bs(requests.get(url + i).text)
         unit = soup.h1.text
         tmp = soup.find("h1", { "class" : "title" }).text
         code = tmp.split(':')[0].replace(' ', '')
-        name = tmp.split(':')[1].strip()
+        title = tmp.split(':')[1].strip()
         desc = soup.find("p", { "class" : "course2desc" }).text.strip()
         cred = soup.find("div", { "class" : "course2credit" }).text.split(':')[1].strip()
         prea = soup.find("div", { "class" : "course2prea" }).text.split(':')[1].strip()
         prep = soup.find("div", { "class" : "course2prer" }).text.split(':')[1].strip()
-        writer.writerow([unit, code, name, desc, cred, prea, prep])
+        writer.writerow([unit, code, title, desc, cred, prea, prep])
