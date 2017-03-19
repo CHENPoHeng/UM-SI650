@@ -32,22 +32,21 @@ for sub in subjects:
 for sub_url, sub_name in subjects_url_name.items():
 	soup = bs(requests.get(sub_url).text)
 	classes = soup.find_all("div",{"class":"row toppadding_main bottompadding_interior"})
-	with open('output/' + sub_name + '_course_list.csv', 'wb') as f:
+	with open('output/' + sub_name + '_course_list.csv', 'w') as f:
 		writer = csv.writer(f)
 		writer.writerow(['department', 'subject', 'code', 'title', 'credits', 'description'])
 		# TODO: this is a for loop
-	for c in classes:
-		c = classes[0]
-		c = c.find('a')
-		# Here c is a relative path
-		c = url + c.get('href')
-		soup = bs(requests.get(c).text)
-		class_title  = soup.title.text # get the class title
-		subject = soup.find('span', {'id':'contentMain_lblSubjectDescr'}).text
-		code = re.findall('(\w+\s\d{3})\s-\s(.*?)\|\s\w+\s\d+', class_title)[0][0]
-		title = re.findall('(\w+\s\d{3})\s-\s(.*?)\|\s\w+\s\d+', class_title)[0][1]
-		department = soup.find('span', {'id':'contentMain_lblDeptDescr'}).text
-		description = soup.find('span', {'id':'contentMain_lblDescr'}).text
-		credits = soup.find('span', {'id':'contentMain_lblCredits'}).text
-		writer.writerow([department.encode('utf-8'), subject.encode('utf-8'), code.encode('utf-8'), title.encode('utf-8'), credits.encode('utf-8'), description.encode('utf-8')])
-		print('Now working on subject: ' + sub_name + ', class: ' + title)
+		for c in classes:
+			c = c.find('a')
+			# Here c is a relative path
+			c = url + c.get('href')
+			soup = bs(requests.get(c).text)
+			class_title  = soup.title.text # get the class title
+			subject = soup.find('span', {'id':'contentMain_lblSubjectDescr'}).text
+			code = re.findall('(\w+\s\d{3})\s-\s(.*?)\|\s\w+\s\d+', class_title)[0][0]
+			title = re.findall('(\w+\s\d{3})\s-\s(.*?)\|\s\w+\s\d+', class_title)[0][1]
+			department = soup.find('span', {'id':'contentMain_lblDeptDescr'}).text
+			description = soup.find('span', {'id':'contentMain_lblDescr'}).text
+			credits = soup.find('span', {'id':'contentMain_lblCredits'}).text
+			writer.writerow([department, subject, code, title, credits, description])
+			print('Now working on subject: ' + sub_name + ', class: ' + title)
