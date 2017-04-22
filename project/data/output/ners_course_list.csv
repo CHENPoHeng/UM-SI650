@@ -1,0 +1,73 @@
+department,code,title,description,credit,advised_requisite,pre_requisite
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 211 (ENSCEN 211),Introduction to Nuclear Engineering and Radiological Sciences,,4,NA,preceded or accompanied by Math 216.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 250,Fundamentals of Nuclear Engineering and Radiological Sciences,,4,NA,preceded or accompanied by Math 216 and Physics 240 .
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 290,Special Topics for Nuclear Engineering and Radiological Sciences,,1,NA,permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 299,Directed Study in Nuclear Engineering and Radiological Sciences,,1,NA,none.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 311,Elements of Nuclear Engineering and Radiological Sciences I,,3,NA,"NERS 250, Physics 240, preceded or accompanied by Math 454."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 312,Elements of Nuclear Engineering and Radiological Sciences II,,3,NA,NERS 311.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 315,Nuclear Instrumentation Laboratory,,4,NA,"EECS 215 or EECS 314, preceded or accompanied by NERS 312."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 344,Fluid Mechanics for Nuclear Engineers,,3,NA,NERS 311 and MECHENG 235.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 421,Nuclear Engineering Materials,,3,NA,"MATSCIE220 or MATSCIE 250, NERS 312."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 425,Application of Radiation,,4,NA,NERS 312.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 441,Nuclear Reactor Theory I,,4,NA,"NERS 312, Math 454."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 442,Nuclear Power Reactors,,4,NA,"NERS 441, CEE 325 or MECHENG 320 or equivalent."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 444,Thermal-hydraulics for Nuclear Systems,,3,NA,Enforced
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 444,Thermal-hydraulics for Nuclear Systems,,3,NA,Enforced
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 471,Introduction to Plasmas,,3,NA,preceded or accompanied by Physics 240 or equivalent.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 472,Fusion Reactor Technology,,3,NA,NERS 471.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 481,(BIOMEDE 481) Engineering Principles of Radiation Imaging,,2,NA,(2 credits)
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 484,"(BIOMEDE 484, ENSCEN 484) Radiological Health Engineering Fundamentals",,4,NA,NERS 312 or equivalent or permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 490,Special Topics in Nuclear Engineering and Radiological Sciences,,1,NA,permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 499,Research in Nuclear Engineering and Radiological Sciences,,1,NA,p
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 499,Research in Nuclear Engineering and Radiological Sciences,,1,NA,p
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 511,Quantum Mechanics in Neutron-Nuclear Reactions,,3,NA,"NERS 312, Math 454."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 512,Interaction of Radiation and Matter,,3,NA,NERS 511.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 515,Nuclear Measurements Laboratory,,4,NA,permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 518,Advanced Radiation Measurements and Imaging,,2,NA,NERS 315 or NERS 515.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 521,Radiation Materials Science I,,3,NA,NERS 421 permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 522,Radiation Materials Science II,,3,NA,"NERS 421, NERS 521 or permission of instructor."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 524,Nuclear Fuels,,3,NA,permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 531 (EECS529) (ENSCEN529),Nuclear Waste Management,,3,NA,Senior Standing.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 535,Detection Techniques of Nuclear Non-proliferation,,4,NA,NERS 315 or equivalent.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 543,Nuclear Reactor Theory II,"and B methods, collision probabilities and Monte Carlo methods.",3,NA,NERS 441 or equivalent.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 544,Monte Carlo Methods,,2,NA,"Graduate standing in Engineering, Mathematics or Sciences."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 546,Thermal Fluids for Nuclear Reactor Safety Analysis,,3,NA,"concurrently with or prior to NERS 441, ME 320, or CEE 325 or equivalent, or graduate standing."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 546,Thermal Fluids for Nuclear Reactor Safety Analysis,,3,NA,"concurrently with or prior to NERS 441, ME 320, or CEE 325 or equivalent, or graduate standing."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 551,Nuclear Reactor Kinetics,,3,NA,preceded or accompanied by NERS 441.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 554,Radiation Shielding Design,,4,NA,NERS 441 or NERS 484.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 555,Radiological Physics and Dosimetry,,2,NA,NERS 311 and 312 and senior or graduate standing.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 555,Radiological Physics and Dosimetry,,2,NA,NERS 311 and 312 and senior or graduate standing.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 561,Nuclear Core Design and Analysis I,,3,NA,NERS 441.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 562,Nuclear Core Design and Analysis II,,3,NA,NERS 561.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 571,Intermediate Plasma Physics I,,3,NA,NERS 471 or Physics 405.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 572,(Appl Phys 672) Intermediate Plasma Physics II,,3,NA,NERS 571.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 573,Plasma Engineering,Develop understanding in the relationship between the hierarchy of kinetic models describing plasmas and numerical equivalents. Short projects will develop simple codes and demonstrate numerical modeling of plasma phenomena. Students will develop their own projects involving original numerical research with a final report in a style appropriate for an academic journal.,3,NA,NERS 471 or graduate standing.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 573,Plasma Engineering,Develop understanding in the relationship between the hierarchy of kinetic models describing plasmas and numerical equivalents. Short projects will develop simple codes and demonstrate numerical modeling of plasma phenomena. Students will develop their own projects involving original numerical research with a final report in a style appropriate for an academic journal.,3,NA,NERS 471 or graduate standing.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 575 (EECS 519),Plasma Generation and Diagnostics Laboratory,,4,NA,preceded or accompanied by a course covering electromagnetism.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 576,Charged Particle Accelerators and Beams,,3,NA,Physics 240 or EECS 331.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 577,Plasma Spectroscopy,,3,NA,introductory courses in plasma and quantum mechanics.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 578 (EECS 517),Physical Processes in Plasmas,,3,NA,EECS 330.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 579 (EHS 692),Physics of Diagnostic Radiology,,3,NA,NERS 484 or Graduate Status.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 580 (BIOMEDE 580),Computation Projects in Radiation Imaging,,1,NA,preceded or accompanied by NERS 481.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 581,Radiation Therapy Physics,,3,NA,"NERS 555 or equivalent with minimum grade of ""C"" for enforced prerequisite and senior or graduate standing."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 582 (BIOMEDE 582),Medical Radiological Health Engineering,,3,NA,NERS 484
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 583,Radiological Dose Assessment and Response,,3,NA,NERS 484 or Graduate Status.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 584,Radiation Biology,,3,NA,Senior or graduate standing.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 584,Radiation Biology,,3,NA,Senior or graduate standing.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 585,Transportation of Radioactive Materials,,2,NA,Junior status in engineering. Senior or graduate status in any field.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 586,Applied Radiological Measurements,"gamma ray spectroscopy, skin dose, bioassay, internal dose evaluation, alpha detection, applied instrumentation and other selected medical physics and health measurements. Includes analytical modeling and computer simulation for comparison with several physical experiments.",4,NA,"NERS 484, NERS 515 or equivalent."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 587,Internal Radiation Dose Assessment,,3,NA,NERS 484 or Graduate Status or Permission of Instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 588,Radiation Safety and Medical Physics Practicum,,1,NA,permission of instructor; mandatory satisfactory/ unsatisfactory.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 590,Special Topics in Nuclear Engineering and Radiological Sciences II,,1,NA,permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 599,Master's Project,,1,NA,permission of instructor.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 621 (EES 629) (MATSCIE 621),(,620). Nuclear Waste Forms,3,NA,NERS 531
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 211 (ENSCEN 211),Introduction to Nuclear Engineering and Radiological Sciences,,4,NA,preceded or accompanied by Math 216.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 621 (EES 629) (MATSCIE 621),(,620). Nuclear Waste Forms,3,NA,NERS 531
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 622 (MFG 622) (MATSCIE 622),Ion Beam Modification and Analysis of Materials,,3,NA,"NERS 421, NERS 521 or MATSCIE 351 or permission of instructor."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 644,Transport Theory,,3,NA,Math 555.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 671,Theory of Plasma Confinement in Fusion Systems,,3,NA,NERS 572 advised.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 673,Electrons and Coherent Radiation,,3,NA,NERS 471 or Physics 405.
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 674 (Appl Phys 674),High Intensity Laser-Plasma Interactions,,3,NA,"NERS 471, NERS 571 or permission of instructor."
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 799,Special Projects,,1,NA,(1-6 credits)
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 990,Dissertation/Pre-Candidate,,1,NA,
+Nuclear Engineering and Radiological Sciences Courses | Michigan Engineering,NERS 995,Dissertation/Candidate,,4,NA,Graduate School authorization for admission as a doctoral candidate.
