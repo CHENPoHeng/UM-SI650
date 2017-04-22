@@ -1,26 +1,26 @@
 1.tf-idf _ LSI,,,,,,,
 Ui Designer,,,,Software enginneer,,,
 Department & Code,Title,,Credit,Department & Code,Title,,Credit
-SI520Graphic Design and Visual Communications1.0NERS 586Applied Radiological Measurements4.0EECS 504Foundations of Computer Vision3.0EECS 494Computer Game Design and Development4.0BIOMEDE 481 (NERS 481)Engineering Principles of Radiation Imaging2.0SI616Advanced Topics in Graphic Design and Communication3.0IOE 201Economic Decision Making7.0EECS 556Image Processing3.0SI640Digital Libraries and Archives3.0AEROSP 305Aerospace Engineering Laboratory I4.0CEE 515Advanced Design of Reinforced Concrete Structures3.0CHE 405 (ENGR 405)Problem Solving and Troubleshooting in the Workplace3.0SI582Introduction to Interaction Design3.0BIOMEDE 450Biomedical Engineering Design4.0EECS 536Classical Statistical Optics3.0MFG 503Manufacturing Project3.0SI430Information Technology and Global Society3.0SI695Mastery Interaction Design3.0BIOMEDE 516 (EECS 516)Medical Imaging Systems3.0AEROSP 290Directed Study1.0,Graphic Design and Visual Communications,,1,EECS 280,Programming and Introductory Data Structures,,4
+SI520,Graphic Design and Visual Communications,,1,EECS 280,Programming and Introductory Data Structures,,4
 NERS 586,Applied Radiological Measurements,,4,SI664,Database Application Design,,3
 EECS 504,Foundations of Computer Vision,,3,BIOMEDE 311,Biomedical Signals and Systems,,4
 EECS 494,Computer Game Design and Development,,4,IOE 432,Industrial Engineering Instrumentation Methods,,3
 BIOMEDE 481 (NERS 481),Engineering Principles of Radiation Imaging,,2,MECHENG 649 (AEROSP 615) (CEE 617),Random Vibrations,,3
-SI616,Advanced Topics in Graphic Design and Communication,,3,MATSCIE 560,Str,,3
-IOE 201,Economic Decision Making,,7,EECS 445,Introduction to Machine Learning,,4
-EECS 556,Image Processing,,3,EECS 381,Object Oriented and Advanced Programming,,4
-SI640,Digital Libraries and Archives,,3,SI548,Principles of Software Design for Learning,,3
-AEROSP 305,Aerospace Engineering Laboratory I,,4,EECS 281,Data Structures and Algorithms,,4
-CEE 515,Advanced Design of Reinforced Concrete Structures,,3,AEROSP 583,Management of Space Systems Design,,4
-CHE 405 (ENGR 405),Problem Solving and Troubleshooting in the Workplace,,3,EECS 581,Software Engineering Tools,,3
-SI582,Introduction to Interaction Design,,3,EECS 571,Principles of Real-Time Computing,,4
-BIOMEDE 450,Biomedical Engineering Design,,4,ENGR 151,Accelerated Introduction to Computers and Programming,,4
-EECS 536,Classical Statistical Optics,,3,APPPHYS 552 (EECS 552),Fiber Optical Communications,,3
-MFG 503,Manufacturing Project,,3,IOE 568,Statistical Learning & Applications in Quality Engineering,,3
-SI430,Information Technology and Global Society,,3,AEROSP 545,Aeromechanics of Rotary Wing Vehicles,,3
-SI695,Mastery Interaction Design,,3,EECS 579,Digital System Testing,,4
-BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3,MFG 578 (NAVARCH 580),Optimization and Management of Marine Systems,,4
-AEROSP 290,Directed Study,,1,EECS 659,Adaptive Signal Processing,,3
+SI616,Advanced Topics in Graphic Design and Communication,,3,EECS 445,Introduction to Machine Learning,,4
+IOE 201,Economic Decision Making,,7,EECS 381,Object Oriented and Advanced Programming,,4
+EECS 556,Image Processing,,3,SI548,Principles of Software Design for Learning,,3
+SI640,Digital Libraries and Archives,,3,EECS 281,Data Structures and Algorithms,,4
+AEROSP 305,Aerospace Engineering Laboratory I,,4,AEROSP 583,Management of Space Systems Design,,4
+CEE 515,Advanced Design of Reinforced Concrete Structures,,3,EECS 581,Software Engineering Tools,,3
+CHE 405 (ENGR 405),Problem Solving and Troubleshooting in the Workplace,,3,EECS 571,Principles of Real-Time Computing,,4
+SI582,Introduction to Interaction Design,,3,ENGR 151,Accelerated Introduction to Computers and Programming,,4
+BIOMEDE 450,Biomedical Engineering Design,,4,APPPHYS 552 (EECS 552),Fiber Optical Communications,,3
+EECS 536,Classical Statistical Optics,,3,IOE 568,Statistical Learning & Applications in Quality Engineering,,3
+MFG 503,Manufacturing Project,,3,AEROSP 545,Aeromechanics of Rotary Wing Vehicles,,3
+SI430,Information Technology and Global Society,,3,EECS 579,Digital System Testing,,4
+SI695,Mastery Interaction Design,,3,MFG 578 (NAVARCH 580),Optimization and Management of Marine Systems,,4
+BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3,EECS 659,Adaptive Signal Processing,,3
+AEROSP 290,Directed Study,,1,,,,
 ,,,,,,,
 2.tf-idf ,,,,,,,
 Ui Designer,,,,Software enginneer,,,
@@ -39,12 +39,12 @@ SI482,Interaction Design Studio,,4,AEROSP 447,Flight Testing,,3
 AEROSP 285,Aerospace Engineering Seminar,,1,AEROSP 450,Flight Software Systems,,3
 MECHENG 551 (MFG 560),Mechanisms Design,,3,EECS 543,Knowledge-Based Systems,,3
 AEROSP 325,Aerodynamics,,4,AEROSP 315,Aircraft and Spacecraft Structures,,4
-ESENG 503,None,,3,CEE 542,Soil and Site Improvement,,3
-CHE 470,Colloids and Interfaces,,3,EECS 682,Special Topics in Software Systems,,3
-MFG 560 (MECHENG 551),Mechanisms Design,,3,EECS 513,Flat Panel Displays,,3
-SI570,Semantics-Based Knowledge Descriptions and Organization,,3,AEROSP 285,Aerospace Engineering Seminar,,1
-BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3,AEROSP 325,Aerodynamics,,4
-SI650,Information Retrieval,,3,EECS 755,Special Topics in Signal Processing,,1
+CHE 470,Colloids and Interfaces,,3,CEE 542,Soil and Site Improvement,,3
+MFG 560 (MECHENG 551),Mechanisms Design,,3,EECS 682,Special Topics in Software Systems,,3
+SI570,Semantics-Based Knowledge Descriptions and Organization,,3,EECS 513,Flat Panel Displays,,3
+BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3,AEROSP 285,Aerospace Engineering Seminar,,1
+SI650,Information Retrieval,,3,AEROSP 325,Aerodynamics,,4
+,,,,,,,
 ,,,,,,,
 3. Word Count,,,,,,,
 Ui Designer,,,,Software enginneer,,,
@@ -60,12 +60,9 @@ IOE 548,Integrated Product Development,,3,EECS 461,Embedded Control Systems,,4
 SI379,History of Computers and the Internet,,4,BIOMEDE 311,Biomedical Signals and Systems,,4
 SI664,Database Application Design,,3,CEE 375,"Sensors, Circuits, and Signals",,3
 SI616,Advanced Topics in Graphic Design and Communication,,3,EECS 467,Autonomous Robotics,,4
-SI320,Graphic Design,,3,SI364,Building Interactive Applications,,4
-SI520,Graphic Design and Visual Communications,,1,AEROSP 450,Flight Software Systems,,3
-EECS 425,Integrated Microsystems Laboratory,,4,SI601,Data Manipulation,,1.5
-EECS 493,User Interface Development,,4,AEROSP 205,Introduction to Aerospace Engineering Systems,,3
-EECS 515,Integrated Microsystems,,4,BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3
-SI320,Graphic Design,,3,SI561,Natural Language Processing,,3
-SI520,Graphic Design and Visual Communications,,1,,,,
-BIOMEDE 510,Medical Imaging Laboratory,,3,,,,
-BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3,,,,
+SI520,Graphic Design and Visual Communications,,1,SI364,Building Interactive Applications,,4
+EECS 425,Integrated Microsystems Laboratory,,4,AEROSP 450,Flight Software Systems,,3
+EECS 493,User Interface Development,,4,SI601,Data Manipulation,,1.5
+EECS 515,Integrated Microsystems,,4,AEROSP 205,Introduction to Aerospace Engineering Systems,,3
+BIOMEDE 510,Medical Imaging Laboratory,,3,BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3
+BIOMEDE 516 (EECS 516),Medical Imaging Systems,,3,SI561,Natural Language Processing,,3
